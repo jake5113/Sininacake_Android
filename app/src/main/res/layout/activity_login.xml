@@ -37,7 +37,7 @@
         android:padding="8dp"
         android:paddingLeft="8dp"
         android:paddingRight="8dp"
-        android:src="@drawable/kao_login" />
+        android:src="@drawable/kakao_login" />
 
     <ImageView
         android:id="@+id/google_login_btn"
@@ -47,7 +47,7 @@
         android:layout_marginBottom="70dp"
         android:paddingLeft="8dp"
         android:paddingRight="8dp"
-        android:src="@drawable/gogle_login"
+        android:src="@drawable/google_login"
         />
 
 

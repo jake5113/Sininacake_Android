@@ -301,7 +301,7 @@
         app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
         android:orientation="horizontal"
         android:padding="8dp"
-        tools:listitem="@layout/oder_detail_card_view"
+        tools:listitem="@layout/order_detail_card_view"
         />
 
     <TextView
