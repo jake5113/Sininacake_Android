@@ -1,4 +1,4 @@
-package com.sinina.sininacake.ui
+package com.sinina.sininacake.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
