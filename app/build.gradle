@@ -9,6 +9,10 @@ android {
     compileSdk 34
 
     defaultConfig {
+        Properties properties = new Properties()
+        properties.load(project.rootProject.file('local.properties').newDataInputStream())
+        manifestPlaceholders = [KAKAO_API: properties["KAKAO_API"]]
+
         applicationId "com.sinina.sininacake"
         minSdk 26
         targetSdk 34
@@ -69,4 +73,7 @@ dependencies {
 
     //CircleImageView
     implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+    // KakaoLogin
+    implementation "com.kakao.sdk:v2-user:2.20.1" // 카카오 로그인 API 모듈
 }
