@@ -5,8 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
-import com.sinina.sininacake.R
 import com.sinina.sininacake.databinding.ActivitySplashBinding
+import com.sinina.sininacake.ui.activities.LoginActivity
 
 class Splash : AppCompatActivity() {
      val binding:ActivitySplashBinding by lazy { ActivitySplashBinding.inflate(layoutInflater) }
@@ -19,7 +19,6 @@ class Splash : AppCompatActivity() {
             startActivity( Intent(this, LoginActivity::class.java) )
             finish()
         },1500)
-
 
     }
 }

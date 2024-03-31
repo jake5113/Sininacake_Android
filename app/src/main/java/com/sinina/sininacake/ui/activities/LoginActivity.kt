@@ -1,9 +1,8 @@
-package com.sinina.sininacake.ui
+package com.sinina.sininacake.ui.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.sinina.sininacake.R
 import com.sinina.sininacake.databinding.ActivityLoginBinding
 
 class LoginActivity : AppCompatActivity() {
@@ -13,7 +12,7 @@ class LoginActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.googleLoginBtn.setOnClickListener{
-            startActivity(Intent(this,OrderDetailActivity::class.java))
+            startActivity(Intent(this, OrderDetailActivity::class.java))
         }
     }
 

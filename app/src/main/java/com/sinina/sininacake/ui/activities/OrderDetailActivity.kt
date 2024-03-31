@@ -1,12 +1,12 @@
-package com.sinina.sininacake.ui
+package com.sinina.sininacake.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.sinina.sininacake.R
 
-class OrderActivity : AppCompatActivity() {
+class OrderDetailActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_order)
+        setContentView(R.layout.activity_order_detail)
     }
 }

@@ -15,28 +15,28 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         tools:targetApi="31">
         <activity
-            android:name=".ui.OrderDetailFragment"
+            android:name=".ui.fragments.OrderDetailFragment"
             android:exported="false" />
         <activity
-            android:name=".ui.LoginActivity"
+            android:name=".ui.activities.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.MainActivity"
+            android:name=".ui.activities.MainActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.ChatActivity"
+            android:name=".ui.activities.ChatActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.HomeActivity"
+            android:name=".ui.activities.HomeActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.OrderActivity"
+            android:name=".ui.activities.OrderActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.OrderDetailActivity"
+            android:name=".ui.activities.OrderDetailActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.CautionActivity"
+            android:name=".ui.activities.CautionActivity"
             android:exported="false" />
         <activity
             android:name=".ui.Splash"
